@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#ff3240 0%, #bb2cf4 100%);
+    width: 100%;
+    height: 100%;
+   
+}
+
+#oo{
+width: 600px;
+height: 600px;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.contact_1,
+.contact_2,
+#contact {
+    background-color: #60ebeb;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+
+#videos iframe {
+    width: 80%;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+
+input {
+    background: grey;
+}
+
+.contact_2 span,
+.contact_2 input,
+.contact_1 a {
+    display: inline-flex;
+}
